@@ -1,0 +1,16 @@
+{
+    "runTerminalCommand": {
+        "commands": [
+            {
+                "command": "kubectl get pod",
+                "name": "K8s Get Pods",
+                "auto":true,
+            },
+            {
+                "command": "kubectl get deployment",
+                "name": "K8s Get Deployment",
+                "auto":true,
+            },
+        ]
+    }
+}
